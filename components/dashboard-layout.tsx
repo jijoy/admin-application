@@ -31,6 +31,7 @@ const pathToBreadcrumb: Record<string, string> = {
   "/users": "User Management",
   "/accounts": "Account Management",
   "/subscriptions": "Subscription Management",
+  "/reports": "Reports & Analytics",
 }
 
 export function DashboardLayout({ children, title, description }: DashboardLayoutProps) {

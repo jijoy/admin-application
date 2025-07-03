@@ -3,7 +3,7 @@
 import type * as React from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Users, CreditCard, Settings, LogOut, Shield } from "lucide-react"
+import { Users, CreditCard, Settings, LogOut, Shield, BarChart3 } from "lucide-react"
 
 import { useAuth } from "@/lib/auth-context"
 import {
@@ -47,6 +47,12 @@ const adminNavItems = [
     url: "/subscriptions",
     icon: CreditCard,
     description: "View and manage all subscriptions",
+  },
+  {
+    title: "Reports",
+    url: "/reports",
+    icon: BarChart3,
+    description: "Analytics and reporting dashboard",
   },
 ]
 
